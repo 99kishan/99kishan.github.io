@@ -9,64 +9,58 @@
     <script src="app.js" defer></script>
 </head>
 <body>
-    <!-- Background Video -->
-    <video autoplay muted loop id="backgroundVideo">
-        <source src="videos/background.mp4" type="video/mp4">
-    </video>
 
-    <!-- Header Section -->
-    <header>
-        <img src="images/profile.png" alt="Profile Picture" class="profile-img">
-        <h1>Sri Sai Kishan Bhamidipati</h1>
-        <p>Data Analyst | Full Stack Web Developer</p>
-    </header>
-
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#achievements">Achievements</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Hero Section -->
+    <section id="hero">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="videos/background.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+            <h1>Hi, I'm Kishan Bhamidipati</h1>
+            <p>Data Analyst | Full Stack Web Developer</p>
+            <a href="#projects" class="cta">View My Work</a>
+            <a href="#contact" class="cta">Contact Me</a>
+        </div>
+    </section>
 
     <!-- Projects Section -->
     <section id="projects" class="content-section">
         <h2>Projects</h2>
         <div class="project-gallery">
             <div class="project-card">
-                <!--img src="images/project1.png" alt="Project 1"-->
-                <h3>Project Title 1</h3>
-                <p>Brief description of the project. <a href="#" target="_blank">Learn more</a></p>
+                <img src="images/project1.png" alt="Project 1">
+                <div class="project-info">
+                    <h3>Project Title 1</h3>
+                    <p>Brief description of the project. <a href="#" target="_blank">Learn more</a></p>
+                </div>
             </div>
-            <div class="project-card">
-                <!--img src="images/project2.png" alt="Project 2"-->
-                <h3>Project Title 2</h3>
-                <p>Brief description of the project. <a href="#" target="_blank">Learn more</a></p>
-            </div>
-            <!-- Add more project cards as needed -->
+            <!-- Repeat for other projects -->
         </div>
     </section>
 
     <!-- Achievements Section -->
     <section id="achievements" class="content-section">
         <h2>Achievements</h2>
-        <ul>
-            <li>Scored 10/10 in SSC Math Exam</li>
-            <li>Received a commendation for excellent English skills at Co-op</li>
-            <!-- Add more achievements as needed -->
-        </ul>
+        <div class="achievement-timeline">
+            <div class="achievement">
+                <h4>2023</h4>
+                <p>Scored 10/10 in SSC Math Exam</p>
+            </div>
+            <div class="achievement">
+                <h4>2024</h4>
+                <p>Commendation for English skills at Co-op</p>
+            </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="content-section">
         <h2>Contact</h2>
-        <ul class="social-links">
-            <li><a href="https://www.facebook.com/kishanbhamidipati/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="mailto:kishan99.b@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/kishanbhamidipati/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/99kishan" target="_blank"><i class="fab fa-github"></i></a></li>
-        </ul>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/kishanbhamidipati/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:kishan99.b@gmail.com"><i class="fa fa-envelope"></i></a>
+            <a href="https://github.com/99kishan" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
     </section>
 
     <footer>
@@ -74,3 +68,38 @@
     </footer>
 </body>
 </html>
+
+
+<!--DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />     
+        <link rel="icon" href="startup.png" type="image/x-icon">
+        <video autoplay muted loop id="myVideo">
+            <source src="12.mp4" type="video/mp4">
+        </video>
+        <title>Kishan Bhamidipati</title>
+        <script src="app.js" type="text/javscript"></script>
+    </head>
+    <body>
+        <div class="box">
+          <img src="me.png" alt="" class="box-img">
+          <h1>Sri Sai Kishan Bhamidipati</h1>
+          <h5> Data Analyst / Full Stack Web Developer </h5>
+        <p></p>
+        <ul>
+        <li><a href="https://www.facebook.com/kishanbhamidipati/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=kishan99.b@gmail.com&tf=1" target="_blank"><i class="fa fa-envelope-open-text" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/kishanbhamidipati/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/99kishan" target="_blank"><i class="fab fa-github"></i></a></li>
+
+        </ul>
+        </div>
+        </body>
+        </html>
+        
+</html-->
