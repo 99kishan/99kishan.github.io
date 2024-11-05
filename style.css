@@ -1,4 +1,18 @@
 /* Reset */
+
+.sunlight-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(circle at center, rgba(255, 223, 128, 0.5), transparent 60%), 
+              radial-gradient(circle at center, rgba(255, 255, 255, 0.3), transparent 40%);
+  animation: sunlightAnimation 10s infinite;
+  z-index: -1; /* Ensures it stays behind other elements */
+  overflow: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +49,10 @@
 .overlay h1 {
   font-size: 3em;
   margin-bottom: 0.5em;
+}
+
+.overlay h1, .overlay p {
+  text-shadow: 0 0 10px rgba(255, 223, 128, 0.8);
 }
 
 .overlay .cta {
