@@ -6,7 +6,7 @@ export default defineConfig({
   base: 'https://github.com/99kishan/99kishan.github.io', // Ensures relative paths for GitHub Pages
   build: {
     baseDirectory: '/dist',
-    outDir: 'dist', // Specify output directory if necessary
+    outDir: 'dist/assets', // Specify output directory if necessary
     rollupOptions: {
       input: './src/main.jsx', // Adjust to point to your main entry file if renamed
     }
