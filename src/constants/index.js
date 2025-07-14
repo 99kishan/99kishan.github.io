@@ -2,7 +2,11 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 
+<<<<<<< HEAD
 export const HERO_CONTENT = `I am a recent Data Science graduate from the University of Nottingham with a passion for transforming raw data into actionable insights. With a strong foundation in mathematics, I specialize in data analysis, visualization, and creating interactive reports using tools like Power BI and DAX. I thrive in problem-solving environments, and my goal is to apply my skills in real-world projects that drive business decisions. I'm also actively building a portfolio to showcase my work and highlight my achievements in the data science field.`;
+=======
+export const HERO_CONTENT = `A Data Science graduate from the University of Nottingham with a passion for transforming raw data into actionable insights. With a strong foundation in mathematics, I specialize in data analysis, visualization, and creating interactive reports using tools like Power BI and DAX. I thrive in problem-solving environments, and my goal is to apply my skills in real-world projects that drive business decisions. I'm also actively building a portfolio to showcase my work and highlight my achievements in the data science field.`;
+>>>>>>> fff6fa75c8f5610ef417a534f7a71efea2ce5700
 
 export const ABOUT_TEXT = `I have over 2 years of experience in building efficient and user-friendly web applications. I have worked with a range of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. Over time, my passion for problem-solving and working with data has led me to pursue a career shift towards data science. I am now focused on learning and applying data science techniques, including machine learning and statistical analysis, to extract valuable insights and solve complex business problems. Outside of coding, I enjoy staying active, reading books, watching anime and sometimes indulge in my fascination about the universe.`;
 

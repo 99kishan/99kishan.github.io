@@ -25,7 +25,7 @@ const Hero = () => {
                     variants={container(0.2)}
                     initial='hidden'
                     animate ='visible'
-                    className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Data Scientist</motion.span>
+                    className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Full Stack Developer and Data Enthusiast</motion.span>
                 <motion.p 
                     variants={container(0.4)}
                     initial='hidden'
