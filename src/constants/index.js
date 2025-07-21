@@ -54,6 +54,13 @@ export const PROJECTS = [
     technologies: ["Scikit-learn", "XGBoost", "Pandas", "NumPy", "CUDA"],
   }
   ,
+  {
+    title: "AI-Driven Forecasting: Predicting Investment Returns with Machine Learning and GPU Acceleration",
+    image: project3,   
+    description:
+      "Developed machine learning models (Linear Regression, Decision Trees, XGBoost) to predict investment returns over 1, 3, and 5-year periods. Leveraged GPU acceleration with XGBoost for improved model performance and faster computations. Evaluated model accuracy using metrics like MAE, MSE, and R², alongside comprehensive data preprocessing including feature engineering and imputation.",
+    technologies: ["Scikit-learn", "XGBoost", "Pandas", "NumPy", "CUDA"],
+  }
 ];
 
 export const CONTACT = {
